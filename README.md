@@ -30,31 +30,28 @@ int main() {
 
 ### 1. Opérations de Base
 
-Créez des fonctions pour effectuer des additions, des soustractions, des multiplications et des divisions.
+Créez des fonctions pour les additions, soustractions, multiplications et divisions.
 
-```cpp
-int add(int a, int b) {
-    return a + b;
-}
-```
+### 2. Interface Graphique avec SFML
 
-### 2. Interface Utilisateur Console
+Utilisez SFML pour ouvrir une fenêtre qui affichera un sprite de calculatrice. Implémentez une zone où les entrées clavier sont capturées et affichées, et où le résultat est montré après avoir appuyé sur "Entrée".
 
-Développez une interface en ligne de commande pour permettre à l'utilisateur de saisir des nombres et sélectionner une opération.
+**Éléments à implémenter :**
+
+- Charger et afficher un sprite de calculatrice.
+- Gérer la saisie du clavier pour entrer des chiffres et des opérateurs.
+- Afficher les entrées à l'écran dans une zone dédiée.
+- Calculer et afficher le résultat lorsque l'utilisateur appuie sur "Entrée".
 
 ### 3. Gestion des Erreurs
 
-Implémentez la gestion des erreurs pour les entrées invalides et les cas comme la division par zéro.
-
-### 4. Extensions (Optionnel)
-
-Ajoutez des fonctionnalités avancées telles que des opérations exponentielles ou des calculs en séquence continue.
+Ajoutez la gestion des erreurs pour les entrées invalides et les cas comme la division par zéro.
 
 ## Ressources Utiles
 
+- [Documentation officielle de SFML](https://www.sfml-dev.org/documentation/2.5.1/)
 - [Cplusplus.com](http://www.cplusplus.com/)
 - [LearnCpp.com](https://www.learncpp.com/)
-
 ## Support
 
 Pour toutes questions ou informations supplémentaires :
