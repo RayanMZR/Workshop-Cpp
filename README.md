@@ -1,28 +1,22 @@
-Workshop C++ : Création d'une Calculatrice
-Configuration du Projet
-Prérequis
+# Workshop C++ : Création d'une Calculatrice
 
-    Installer un environnement de développement intégré (IDE) pour C++, tel que Visual Studio, Code::Blocks, ou CLion.
-    Télécharger le code source initial depuis le repo GitHub (fourni).
+Bienvenue dans ce workshop où nous allons construire une calculatrice de base en C++. Ce projet vise à introduire les fondamentaux de la programmation en C++, y compris la manipulation des types de données, l'utilisation des fonctions, et les structures de contrôle.
 
-bash
+## Introduction au C++
 
-git clone <REPO_URL>
-cd <REPO_NAME>
+Le C++ est un langage de programmation puissant offrant de grandes performances et une flexibilité appréciée dans de nombreux domaines techniques et professionnels.
 
-Introduction au C++
+**Pourquoi apprendre le C++ ?**
 
-Ce workshop est conçu pour vous introduire aux bases de la programmation en C++, en mettant en œuvre une application simple : une calculatrice. Vous apprendrez comment manipuler les types de données, les opérateurs, les fonctions, et les structures de contrôle en C++.
-Pourquoi le C++ ?
+- **Performance**: Excellente gestion de la mémoire et vitesse d'exécution.
+- **Polyvalence**: Utilisé dans le développement de systèmes, applications, jeux vidéo, et plus.
+- **Fondamental**: Comprendre le C++ ouvre les portes à de nombreux autres langages de programmation.
 
-    Performance: Le C++ est connu pour sa performance et son contrôle sur les ressources système.
-    Polyvalence: Il est utilisé dans divers domaines, de la programmation de systèmes à la création de jeux vidéo.
-    Base solide: Comprendre le C++ enrichit vos compétences en programmation, car beaucoup de langages modernes en sont influencés.
+## Guide de Démarrage Rapide
 
-Exemple de Code pour Démarrer
+Commencez par un simple "Hello World" pour tester votre environnement.
 
-cpp
-
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -30,39 +24,41 @@ int main() {
     cout << "Bienvenue au Workshop C++!" << endl;
     return 0;
 }
+```
 
-Exercices
-1. Structure de Base d'une Calculatrice
+## Exercices
 
-    Créez une fonction pour chaque opération de base : addition, soustraction, multiplication, division.
-    Testez chaque fonction pour vous assurer de leur bon fonctionnement.
+### 1. Opérations de Base
 
-2. Interface Utilisateur en Console
+Créez des fonctions pour effectuer des additions, des soustractions, des multiplications et des divisions.
 
-    Développez une interface utilisateur simple en console qui demande aux utilisateurs d'entrer deux nombres et de choisir une opération.
-    Affichez le résultat de l'opération choisie.
+```cpp
+int add(int a, int b) {
+    return a + b;
+}
+```
 
-3. Gestion des Erreurs
+### 2. Interface Utilisateur Console
 
-    Ajoutez la gestion des erreurs pour les entrées invalides et les erreurs mathématiques, comme la division par zéro.
+Développez une interface en ligne de commande pour permettre à l'utilisateur de saisir des nombres et sélectionner une opération.
 
-4. Extensions (Facultatif)
+### 3. Gestion des Erreurs
 
-    Implémentez des fonctions pour des opérations plus complexes, comme la puissance et la racine carrée.
-    Ajoutez la possibilité de faire des calculs en chaîne sans redémarrer le programme.
+Implémentez la gestion des erreurs pour les entrées invalides et les cas comme la division par zéro.
 
-Ressources
+### 4. Extensions (Optionnel)
 
-Pour vous aider dans ce workshop, voici quelques ressources :
+Ajoutez des fonctionnalités avancées telles que des opérations exponentielles ou des calculs en séquence continue.
 
-    Cplusplus.com - Documentation complète sur le C++
-    LearnCpp.com - Tutoriels pour apprendre le C++ de zéro
+## Ressources Utiles
 
-Contact
+- [Cplusplus.com](http://www.cplusplus.com/)
+- [LearnCpp.com](https://www.learncpp.com/)
 
-Pour plus d'informations ou pour toute question, n'hésitez pas à me contacter :
+## Support
 
-    Jean Dupont
-    Email: jean.dupont@example.com
+Pour toutes questions ou informations supplémentaires :
 
-Repository GitHub
+- **Email:** [rayan.mazri@epitech.eu](mailto:rayan.mazri@epitech.eu)
+
+---
