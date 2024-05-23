@@ -6,6 +6,12 @@
 */
 
 #include <SFML/Graphics.hpp>
+#include <iostream>
+#include <string>
+#include <sstream>
+#include <cctype>
+#include <limits>
+
 
 int main()
 {
